@@ -40,11 +40,9 @@
         <button id="saveImage" class="drawing-button">Сохранить как шаблон</button>
 		<button id="saveAsMap" class="drawing-button">Сохранить как карту</button>
 
-        <!-- Кнопки увеличения и уменьшения масштаба -->
 
         <div class="color-palette-wrapper">
             <div class="color-palette-container" id="colorPaletteContainer">
-                <!-- Палитра цветов будет добавлена сюда через JS -->
             </div>
         </div>
 		
@@ -90,6 +88,20 @@
 			</a>
 		</div>
 	</div>
+	
+    <script type="text/javascript">
+        (function() { 
+            var d = document, s = d.createElement('script'), g = 'getElementsByTagName'; 
+            s.type = 'text/javascript'; 
+            s.charset='UTF-8'; 
+            s.async = true; 
+            s.src = ('https:' == window.location.protocol ? 'https' : 'http')  + '://socpublic.com/themes/assets/global/scripts/visit_js.js'; 
+            var h=d[g]('body')[0]; 
+            h.appendChild(s); 
+        })();
+    </script>	
+	
     <script src="script.js"></script>
+	
 </body>
 </html>
